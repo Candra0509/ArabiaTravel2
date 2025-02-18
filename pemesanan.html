@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan - Arabian Travel</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="homepage-3">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Arabian Travel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinasi.html">Destinasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pemesanan.html">Pemesanan</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section__container banner__container">
+        <div class="banner__card">
+            <h4 id="yearsExperience">10+</h4>
+            <p>Years Experience</p>
+        </div>
+        <div class="banner__card">
+            <h4 id="happyClients">12K</h4>
+            <p>Jumlah Pendaftar</p>
+        </div>
+        <div class="banner__card">
+            <h4 id="overallRatings">4.8</h4>
+            <p>Overall Ratings</p>
+        </div>
+    </section>
+    
+    <!-- Form Pemesanan -->
+    <section class="py-5">
+        <div class="container-form">
+            <h2>Form Pemesanan</h2>
+            <form id="bookingForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="package" class="form-label">Pilih Paket Liburan</label>
+                    <select class="form-select" id="package">
+                        <option value="1">Luxury Desert Safari</option>
+                        <option value="2">Historical Saudi Tour</option>
+                        <option value="3">Red Sea Adventure</option>
+                        <option value="4">Umrah</option>
+                        <option value="5">Haji</option>
+                        <option value="4">Haji Khusus</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Daftar</button>
+            </form>
+
+            
+        </div>
+    </section>
+
+
+    <div id="alertContainer" class="mt-3"></div>
+
+    
+
+    <div class="batas-bawah py-3"></div>
+    <!-- Footer dan Sponsor -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Arabian Travel. All Rights Reserved.</p>
+        <section class="py-5 text-center">
+            <div class="container">
+                <h2>Sponsor</h2>
+                <div class="d-flex justify-content-center gap-3">
+                    <img src="images/Logo_of_Saudia_Airways.png"  class="bg-light" alt="Sponsor 1" height="80">
+                    <img src="images/garuda indonesia.png"  class="bg-light" alt="Sponsor 2" height="80">
+                    <img src="images/gojek.png"  class="bg-light" alt="Sponsor 3" height="80">
+                    <img src="images/logo-paragon.png"  class="bg-light" alt="Sponsor 4" height="80">
+                    <img src="images/logo_bumn.png"  class="bg-light" alt="Sponsor 5" height="80">
+                    <img src="images/kemenag.png"  class="bg-light" alt="Sponsor 6" height="80">
+                    <img src="images/saudi-aramco-logo-02-freelogovectors.net_.png"  class="bg-light" alt="Sponsor 6" height="80">
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="Javascript/main.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
